@@ -1,7 +1,6 @@
 .find-icons {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .find-icons__icon {
   display: flex;
@@ -14,4 +13,109 @@
 }
 .find-icons__icon span {
   margin-top: 15px;
+}
+
+.recommended-friends {
+  padding: 25px 0px;
+  margin: 25px 0px;
+  border-bottom: var(--main-border);
+  border-top: var(--main-border);
+}
+
+.recommended-friends__title {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.recommended-friends span {
+  /* span은 inline이다. */
+  display: block;
+  margin: 110px 0px;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 25px;
+}
+
+.open-chat__header span {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post__title {
+  font-size: large;
+  margin-bottom: 7px;
+  font-weight: 600;
+  /* font-family: "Gill Sans", sans-serif; */
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  opacity: 0.4;
+}
+
+.open-post__members {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.open-post__members img {
+  width: 15px;
+  height: 15px;
+  border-radius: 37%;
+  margin-right: 5px;
+}
+
+.open-post__member-count {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.open-post__members .divider {
+  width: 1px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.open-post__members-status {
+  color: hotpink;
+}
+
+.open-post__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+.open-post__photo {
+  position: relative;
+}
+.open-post__hearts {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 7px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 12px;
+}
+
+.open-post__hearts span {
+  margin-left: 4px;
+  font-family: sans-serif;
 }
