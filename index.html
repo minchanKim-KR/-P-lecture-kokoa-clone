@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- !단축키로 틀을 가져올수있다(vsc) -->
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- style:css로 쉽게 생성 -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to KOKOA CLONE</title>
+  </head>
+
+  <body>
+    <!-- 웹 개발 접근법중 하나(bem),각 이름에는 역할을 기입하는것이 좋다. -->
+    <!-- 블럭이름__요소이름(하위)--상태 -->
+    <!-- block element modifier(bem) : block-name__element-name_modifier-name -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span><i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column"><span>18:43</span></div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-half"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+      <p class="welcome-header__text">
+        If you have a Kakao Account,log in with your email or phone number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="GET" id="welcome-header__login">
+      <!-- file:///D:/kokoa-clone/friends.html?username=?&password=? -->
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="text" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
+      <a href="#">Find Kakao Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font awesome에서 가져온 아이콘을 사용 할 수있다.(body의 맨마지막에 위치시켜 사용 -->
+  </body>
+</html>

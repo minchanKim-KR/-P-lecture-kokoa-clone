@@ -1,0 +1,18 @@
+.friends__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  /* root내부 변수 */
+  margin-bottom: 15px;
+}
+
+.friends__header--name {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header i {
+  margin-left: 25px;
+}

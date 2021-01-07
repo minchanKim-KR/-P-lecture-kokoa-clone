@@ -1,0 +1,12 @@
+.badage {
+  background-color: tomato;
+  color: aliceblue;
+  text-size-adjust: 2px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 10px;
+}

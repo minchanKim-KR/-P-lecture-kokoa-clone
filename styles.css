@@ -1,0 +1,12 @@
+@import "components/reset.css";
+@import "components/login.css";
+@import "components/variables.css";
+@import "components/nav_bar.css";
+@import "components/screen_header.css";
+@import "screens/friends.css";
+@import "components/user-component.css";
+@import "components/badage.css";
+@import "screens/find.css";
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

@@ -1,0 +1,27 @@
+.far,
+.fas {
+  font-size: 21px;
+}
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #f9f9fa;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  /* 기본적으로 width와 padding를 설정하면
+  둘다 지키기위해 width에 padding만큼 
+  박스 크기를 키운다 */
+  box-sizing: border-box;
+  /* 위 속성을 통해 박스 크기를 늘리지 마라고한다. */
+}
+.nav__li:nth-child(2) {
+  position: relative;
+}
+.nav__notification {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}

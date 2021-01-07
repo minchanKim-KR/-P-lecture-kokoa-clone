@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Langar&family=Open+Sans:wght@600&display=swap");
+/* 브라우저의 임의 조정을 리셋시킨다. */
+@import "login-status.css";
+
+body {
+  font-family: "Langar", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+/* font family로 선택도 가능 */
+/* @import는 맨 위로 배치해야함 */
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.5;
+}
+
+#welcome-header__login {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+  color: aqua;
+}
+
+#welcome-header__login input {
+  border: 0px;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#welcome-header__login input:not([type="submit"]) {
+  border-bottom: 1.2px solid rgba(0, 0, 0, 0.1);
+  transition: border-color 1s ease-in-out;
+}
+
+#welcome-header__login input::placeholder {
+  opacity: 0.6;
+}
+
+#welcome-header__login input:focus {
+  border-color: rgba(250, 225, 0, 1);
+}
+
+#welcome-header__login input[type="submit"] {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#welcome-header__login input[type="submit"]:active {
+  background-color: rgba(250, 225, 0);
+}
+
+#welcome-header__login a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  /* 바로 위로부터 색깔 상속받음 */
+  font-size: 15px;
+}
