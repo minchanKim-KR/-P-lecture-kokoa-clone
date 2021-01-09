@@ -7,6 +7,10 @@
 @import "components/user-component.css";
 @import "components/badage.css";
 @import "screens/find.css";
+@import "screens/icon-row.css";
+@import "screens/more.css";
+@import "components/screen_header2.css";
+@import "screens/settings.css";
 .main-screen {
   padding: 0px var(--horizontal-space);
 }

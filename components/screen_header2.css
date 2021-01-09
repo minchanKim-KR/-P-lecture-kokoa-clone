@@ -1,0 +1,18 @@
+.header2 {
+  padding: var(--horizontal-space);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header2__column {
+  font-size: 32px;
+}
+
+.header2__column:first-child {
+  margin-right: auto;
+}
+
+.header2__column:last-child {
+  margin-left: auto;
+}

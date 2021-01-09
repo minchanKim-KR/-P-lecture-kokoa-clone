@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- !단축키로 틀을 가져올수있다(vsc) -->
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- style:css로 쉽게 생성 -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - KOKOA CLONE</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span><i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column"><span>18:43</span></div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-half"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="friends__header">
+      <h1 class="friends__header--name">More</h1>
+      <div>
+        <span><i class="fas fa-search"></i></span>
+        <span><i class="fas fa-music"></i></span>
+        <span><a href="settings.html"><i class="fas fa-cog"></i></a></span>
+      </div>
+    </header>
+
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="screenshots/piloted shredder.jpeg"
+            class="user-component__img user-component__img--xl"
+          />
+          <div class="user-component__text">
+            <p class="user-component__title">Piloted shredder</p>
+            <h6 class="user-component__subtitle">+1 787-493-4219</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span><i class="far fa-comment-alt fa-2x"></i></span>
+        </div>
+      </div>
+
+      <div class="icon-row">
+        <!-- .icon-row__icon*4>span -->
+        <div class="icon-row__icon size-80x66">
+            <i class="far fa-calendar-check"></i><span>Calendar</span>
+        </div>
+        <div class="icon-row__icon size-80x66">
+            <i class="fas fa-box-open"></i><span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon size-80x66">
+            <i class="far fa-kiss"></i><span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon size-80x66">
+            <i class="fas fa-brush"></i></i><span>Themes</span>
+        </div>
+      </div>
+
+      <div class="icon-row">
+        <!-- .icon-row__icon*4>span -->
+        <div class="icon-row__icon size-80x66">
+            <i class="fab fa-kickstarter-k"></i><span>Account</span>
+        </div>
+        <div class="icon-row__icon size-80x66">
+            <i class="far fa-comments"></i><span>Openchat</span>
+        </div>
+        <div class="empty-box1 size-80x66"> 
+        </div>
+        <div class="empty-box2 size-80x66">
+        </div>
+      </div> 
+    <div class="more-suggestions">
+        <h4 class="more-suggestions__title">suggestions</h4>
+
+        <div class="more-suggestions__icons">
+            <div class="more-suggestions__icon">
+                <div class="more-suggestions__icon-image">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+                <span class="more-suggestions__icon-text">Kakao Story</span>
+            </div>
+            <div class="more-suggestions__icon">
+                <div class="more-suggestions__icon-image">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+                <span class="more-suggestions__icon-text">Kakao Story</span>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <nav class="nav">
+      <!-- nav:네비게이션 -->
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a class="nav__a" href="friends.html"
+            ><i class="far fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__li">
+          <span class="nav__notification badage">1</span>
+          <a class="nav__a" href="chats.html"
+            ><i class="far fa-comment fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="find.html"
+            ><i class="fas fa-search fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-lg"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font awesome에서 가져온 아이콘을 사용 할 수있다.(body의 맨마지막에 위치시켜 사용 -->
+  </body>
+</html>
