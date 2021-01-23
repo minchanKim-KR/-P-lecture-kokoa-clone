@@ -11,6 +11,8 @@
 @import "screens/more.css";
 @import "components/screen_header2.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
+
 .main-screen {
   padding: 0px var(--horizontal-space);
 }

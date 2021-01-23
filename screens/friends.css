@@ -24,3 +24,29 @@
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.2);
 }
+
+@keyframes hss {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+    /* 마우스에 걸리지않게 숨긴다 */
+  }
+}
+
+#splash-screen {
+  background-color: #fae100;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: hss 1s ease-in-out forwards;
+  /* forward : 실행후 상태유지 */
+  animation-delay: 1.5s;
+  /* 애니메이션 딜레이 */
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- !단축키로 틀을 가져올수있다(vsc) -->
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- style:css로 쉽게 생성 -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - KOKOA CLONE</title>
+  </head>
+
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span><i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column"><span>18:43</span></div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-half"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="header2">
+      <div class="header2__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-1x"></i>
+        </a>
+      </div>
+      <div class="header2__column"><span>Bard</span></div>
+      <div class="header2__column">
+        <span><i class="fas fa-search fa-1x"></i></span>
+        <span><i class="fas fa-bars fa-1x"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+
+      <div class="message-row">
+        <img src="screenshots/bard.png" />
+        <div class="message-row__content">
+          <span class="message__author">Bard</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row-own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fas fa-plus-square fa-lg"></i>
+      </div>
+
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message" />
+        <i class="far fa-smile-wink"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font awesome에서 가져온 아이콘을 사용 할 수있다.(body의 맨마지막에 위치시켜 사용 -->
+  </body>
+</html>

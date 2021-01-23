@@ -16,3 +16,7 @@
 .header2__column:last-child {
   margin-left: auto;
 }
+
+.header2__column span {
+  margin-left: 20px;
+}

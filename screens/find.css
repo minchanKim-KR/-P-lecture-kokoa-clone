@@ -102,3 +102,21 @@
   margin-left: 4px;
   font-family: sans-serif;
 }
+
+@keyframes heartbeat {
+  0% {
+    color: white;
+  }
+  50% {
+    color: red;
+    transform: scale(2);
+  }
+  100% {
+    color: white;
+  }
+}
+.open-post__hearts i:hover {
+  animation: heartbeat 1s ease-in-out infinite;
+  will-change: transform;
+  /* 미리 무엇이 변할지 브라우저에 알려서 흔들림 방지 */
+}

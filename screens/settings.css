@@ -4,9 +4,39 @@
   font-size: 18px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .settings__setting i {
   margin-right: 20px;
   font-size: 22px;
+}
+
+.settings__setting_column:last-child {
+  opacity: 0.5;
+}
+
+@keyframes dominion {
+  0% {
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#dominion {
+  position: absolute;
+  top: 0;
+  block-size: 10px;
+  animation: dominion 4s ease-in-out forwards;
+}
+
+#dominion img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
