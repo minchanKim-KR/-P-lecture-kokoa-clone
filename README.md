@@ -1,3 +1,3 @@
 # KOKOA CLONE
 
-html, css are so much fun!
+html,css 실습 강의 자료입니다.
